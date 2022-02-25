@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         CustomTabActivityHelper.openCustomTab(
             this,
             customTabsIntent,
-            Uri.parse("https://www.naver.com"),
+            Uri.parse("https://github.com/coolishbee"),
             CustomWebViewFallback()
         )
     }
